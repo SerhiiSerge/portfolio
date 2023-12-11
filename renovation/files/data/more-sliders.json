@@ -1,0 +1,84 @@
+{
+    "sliders": [
+        {
+            "title": "Facade renovate, San Francisco",
+            "text": "Home Renovations provides affordable window option for San Francisco homeowners",
+            "images": [
+                {
+                    "link": "../../img/facade-of-a-house-with-many-large-windows.jpeg",
+                    "image": "../../img/facade-of-a-house-with-many-large-windows.jpeg",
+                    "alt": "Facade of a house with many large windows"
+                },
+                {
+                    "link": "../../img/facade-of-a-house-with-many-large-windows.jpeg",
+                    "image": "../../img/facade-of-a-house-with-many-large-windows.jpeg",
+                    "alt": "Facade of a house with many large windows"
+                }
+            ]
+        },
+        {
+            "title": "Bedroom Design, San Francisco",
+            "text": "Home Renovations provides affordable window option for San Francisco homeowners",
+            "images": [
+                {
+                    "link": "../../img/a-bedroom-with-a-large-bed.jpeg",
+                    "image": "../../img/a-bedroom-with-a-large-bed.jpeg",
+                    "alt": "A bedroom with a large bed"
+                },
+                {
+                    "link": "../../img/a-bedroom-with-a-large-bed.jpeg",
+                    "image": "../../img/a-bedroom-with-a-large-bed.jpeg",
+                    "alt": "A bedroom with a large bed"
+                }
+            ]
+        },
+        {
+            "title": "Kitchen renovate, San Francisco",
+            "text": "Home Renovations provides affordable window option for San Francisco homeowners",
+            "images": [
+                {
+                    "link": "../../img/kitchen-with-dark-walls.jpg",
+                    "image": "../../img/kitchen-with-dark-walls.jpg",
+                    "alt": "Kitchen with dark walls"
+                },
+                {
+                    "link": "../../img/kitchen-with-dark-walls.jpg",
+                    "image": "../../img/kitchen-with-dark-walls.jpg",
+                    "alt": "Kitchen with dark walls"
+                }
+            ]
+        },
+        {
+            "title": "Outdoor Oasis Creations, San Francisco",
+            "text": "Home Renovations provides affordable window option for San Francisco homeowners",
+            "images": [
+                {
+                    "link": "../../img/stairs-in-a-large-green-garden.jpeg",
+                    "image": "../../img/stairs-in-a-large-green-garden.jpeg",
+                    "alt": "Stairs in a large green garden"
+                },
+                {
+                    "link": "../../img/stairs-in-a-large-green-garden.jpeg",
+                    "image": "../../img/stairs-in-a-large-green-garden.jpeg",
+                    "alt": "Stairs in a large green garden"
+                }
+            ]
+        },
+        {
+            "title": "Bathroom Design, San Francisco",
+            "text": "Home Renovations provides affordable window option for San Francisco homeowners",
+            "images": [
+                {
+                    "link": "../../img/bright-bathroom-with-large-windows.jpg",
+                    "image": "../../img/bright-bathroom-with-large-windows.jpg",
+                    "alt": "Bright bathroom with large windows"
+                },
+                {
+                    "link": "../../img/bright-bathroom-with-large-windows.jpg",
+                    "image": "../../img/bright-bathroom-with-large-windows.jpg",
+                    "alt": "Bright bathroom with large windows"
+                }
+            ]
+        }
+    ]
+}
