@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230830175806">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>Ditch - Portfolio Blog</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">D</a>
+				<div class="header__menu menu">
+					<a data-ripple="once" href="index.html" class="menu__link">Home</a>
+				</div>
+				<a data-ripple="once" data-goto="#footer" href="#footer" class="header__button button">Hire me</a>
+			</div>
+		</header>
+		<main class="main">
+			<section class="main__about about">
+				<div class="about__container">
+					<div class="about__main">
+						<div class="about__name">Jessica Strosin</div>
+						<h1 class="about__title title">
+							Creative thinker<br>
+							Minimalism lover
+						</h1>
+						<div class="about__text">
+							<p>
+								Hi, I’m Jessica. I’m UI/UX Designer. If you are looking for Designer to build your
+								brands and grow your business Let’s shake hands with me.
+							</p>
+						</div>
+						<div class="about__info">
+							<p data-watch data-watch-once>
+								I am currently open for part-time work.
+							</p>
+						</div>
+					</div>
+					<div data-da=".about__main, 767.98, 1" class="about__image">
+						<picture>
+							<source srcset="img/about/jessica-strosin.webp" type="image/webp"><img
+								src="img/about/jessica-strosin.jpg" alt="Jessica Strosin">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<section class="main__bio bio">
+				<div class="bio__container">
+					<h2 class="bio__title title">Example</h2>
+					<div class="bio__text">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vitae libero consequatur
+							quaerat aspernatur, explicabo at, nesciunt rem neque assumenda earum modi dolorum vel quis
+							suscipit omnis quam? Eaque, ratione.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vitae libero consequatur
+							quaerat aspernatur, explicabo at, nesciunt rem neque assumenda earum modi dolorum vel quis
+							suscipit omnis quam? Eaque, ratione.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="footer__container">
+				<h2 class="footer__title title">Contact with me</h2>
+				<div class="footer__subhead">
+					<p>
+						I’m not currently taking on new client work but feel free to contact me for any other inquiries.
+					</p>
+				</div>
+				<div data-watch data-watch-once class="footer__social social">
+					<a href="https://twitter.com/" target="_blank" title="twitter" class="social__icon">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#twitter"></use>
+						</svg>
+					</a>
+					<a href="https://dribbble.com/" target="_blank" title="dribbble" class="social__icon">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#dribbble"></use>
+						</svg>
+					</a>
+					<a href="https://www.facebook.com/" target="_blank" title="facebook" class="social__icon">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#facebook"></use>
+						</svg>
+					</a>
+					<a href="https://codepen.io/" target="_blank" title="codepen" class="social__icon">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#codepen"></use>
+						</svg>
+					</a>
+					<button data-popup="#popup" type="button" title="e-mail" class="social__icon">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#at-sign"></use>
+						</svg>
+					</button>
+					<a href="https://www.instagram.com/" target="_blank" title="instagram" class="social__icon">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#instagram"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<h2 class="popup__title">Send me an email</h2>
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<form data-dev data-popup-message="#form-message" action="files/sendmail/sendmail.php" method="POST"
+					class="popup__form form">
+					<div class="form__row">
+						<div class="form__column">
+							<input type="text" name="name" placeholder="Name*" data-error="Field 'Name' must be filled!"
+								data-required class="form__input">
+						</div>
+						<div class="form__column">
+							<input type="email" name="email" placeholder="E-mail*" data-error="Invalid email address!"
+								data-required="email" class="form__input">
+						</div>
+					</div>
+					<div class="form__column">
+						<textarea name="message" placeholder="Message*" rows="5"
+							data-error="Field 'Message' must be filled!" data-required
+							class="form__textarea"></textarea>
+					</div>
+					<button type="submit" data-ripple="once" class="form__button button">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="form-message" aria-hidden="true" class="popup popup_message">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<h2 class="popup__title">The email was sent!</h2>
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="popup__text">
+					<p>
+						Thank you for contacting me!
+					</p>
+					<p>
+						I will contact you soon.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div data-lp class="to-top">
+		<button data-ripple="once" class="to-top__button"></button>
+	</div>
+	<script src="js/app.min.js?_v=20230830175806"></script>
+</body>
+
+</html>
